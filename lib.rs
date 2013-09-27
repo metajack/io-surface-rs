@@ -7,12 +7,8 @@
 // option. This file may not be copied, modified, or distributed
 // except according to those terms.
 
-#[link(name = "io_surface",
-	   vers = "0.1")];
-#[crate_type = "lib"];
-
-extern mod core_foundation;
 extern mod std;
+extern mod core_foundation = "rust-core-foundation";
 
 // Rust bindings to the IOSurface framework on Mac OS X.
 
